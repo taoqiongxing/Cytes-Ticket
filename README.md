@@ -1,9 +1,7 @@
 # Cytes-Ticket
 ## 求中奖彩票的张数——中兴笔试题（2019.09.09）
 
-    #numTickets #=3 彩票张数
-    #drawString #="aabacd" #抽奖字符串s
-    #tickets #={"abocde","aoc","actld"} #彩票列表
+## code
 
     def func(d,tf,tb):
         if len(tb)==0 or len(d)==0:
@@ -25,3 +23,12 @@
         if func(drawString,[],list(item)):
             ac+=1
     print(ac)
+
+## 测试用例：
+    #输入：
+    #numTickets #=3 彩票张数
+    #drawString #="aabacd" #抽奖字符串s
+    #tickets #={"abocde","aoc","actld"} #彩票列表
+    
+    #输出：
+    #2
