@@ -1,5 +1,6 @@
 # Cytes-Ticket
-求中奖彩票的张数——中兴笔试题（2019.09.09）
+## 求中奖彩票的张数——中兴笔试题（2019.09.09）
+
     #numTickets #=3 彩票张数
     #drawString #="aabacd" #抽奖字符串s
     #tickets #={"abocde","aoc","actld"} #彩票列表
